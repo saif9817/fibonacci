@@ -1,5 +1,4 @@
 #the following is a significantly faster alternative to recursive fibonacci, this is done by storing the previous two numbers allowing for the removal of all recursion and duplicate calls
-#this is expected to be linear runtime
 
 def fib(x):
     if x<=1:
